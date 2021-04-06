@@ -1,5 +1,5 @@
 /*
- * Template Name: Sphere - Responsive website template for CV/Resume/Portfolio
+ * Template Name: Sphere - Responsive website template for CV/Resume/pf
  * Version: 2.0
  * Author: Xiaoying Riley at 3rd Wave Media
  * Website: http://themes.3rdwavemedia.com/
@@ -478,34 +478,34 @@ a.btn:hover {
     top: 0;
 }
 
-.testimonials-section .testimonials-carousel {
+.portfolio-section .portfolio-carousel {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.testimonials-section .item {
+.portfolio-section .item {
     padding-left: 60px;
     margin-bottom: 45px;
 }
 
-.testimonials-section .quote {
+.portfolio-section .quote {
     border-left: none;
     padding: 0;
-    font-size: 22px;
+    font-size: 18px;
     color: #24292e;
     font-weight: 300;
     position: relative;
 }
 
-.testimonials-section .source .name {
+.portfolio-section .source .name {
     font-size: 16px;
 }
 
-.testimonials-section .source .position {
+.portfolio-section .source .position {
     color: #8a8a8a;
 }
 
-.testimonials-section .fa-quote-left {
+.portfolio-section .fa {
     position: absolute;
     left: -60px;
     top: 0;
@@ -527,12 +527,12 @@ a.btn:hover {
     font-size: 16px;
 }
 
-.testimonials-section .carousel-indicators {
+.portfolio-section .carousel-indicators {
     bottom: 0;
     margin-bottom: 0;
 }
 
-.testimonials-section .carousel-indicators li {
+.portfolio-section .carousel-indicators li {
     background-color: #bdbdbd;
     border: none;
     width: 10px;
@@ -550,103 +550,13 @@ a.btn:hover {
     cursor: pointer;
 }
 
-.testimonials-section .carousel-indicators li.active {
+.portfolio-section .carousel-indicators li.active {
     background-color: #383838;
     width: 10px;
     height: 10px;
     margin: 0;
     margin-right: 8px;
 }
-
-/**
-Portfolio Section
-*/
-
-.portfolio-section .filters {
-    list-style: none;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    text-align: center;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.portfolio-section .filters .type {
-    margin-right: 30px;
-    list-style: none;
-    display: inline-block;
-    padding: 8px 15px;
-    color: #8a8a8a;
-    cursor: pointer;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.portfolio-section .filters .type:last-child {
-    margin-right: 0;
-}
-
-.portfolio-section .filters .type.active {
-    color: #383838;
-    border-bottom: 2px solid #383838;
-}
-
-.portfolio-section .item {
-    margin-bottom: 30px;
-}
-
-.portfolio-section .item .figure {
-    margin-bottom: 0;
-}
-
-.portfolio-section .item-inner {
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    position: relative;
-    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
-}
-
-.portfolio-section .item-inner .content {
-    padding: 30px;
-    position: relative;
-}
-
-.portfolio-section .item-inner .content .sub-title {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 6px;
-    color: #000000;
-}
-
-.portfolio-section .item-inner .content .meta {
-    color: #24292e;
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.portfolio-section .item-inner .content .action {
-    font-size: 14px;
-    margin-bottom: 3px;
-    color: #24292e;
-}
-
-.portfolio-section .item-inner .content .action span {
-    font-weight: 600;
-    color: #383838;
-}
-
-/**
-portfolio section end here
-*/
 
 /**
 Contact section start here
@@ -787,17 +697,17 @@ Contact section start here
         padding: 0;
     }
 
-    .portfolio-section .filters .type {
+    .pf-section .filters .type {
         font-size: 12px;
         margin-right: 5px;
         padding: 8px 5px;
     }
 
-    .portfolio-section .item-inner .content {
+    .pf-section .item-inner .content {
         padding: 15px;
     }
 
-    .portfolio-section .item-inner .content .sub-title {
+    .pf-section .item-inner .content .sub-title {
         font-size: 14px;
         max-width: 120px;
         overflow: hidden;
@@ -805,7 +715,7 @@ Contact section start here
         white-space: nowrap;
     }
 
-    .portfolio-section .item-inner .content .meta {
+    .pf-section .item-inner .content .meta {
         margin-bottom: 30px;
         max-width: 120px;
         overflow: hidden;
@@ -813,7 +723,7 @@ Contact section start here
         white-space: nowrap;
     }
 
-    .portfolio-section .item-inner .content .action {
+    .pf-section .item-inner .content .action {
         position: static;
         font-size: 12px;
     }
