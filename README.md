@@ -3,11 +3,9 @@
 
 ## Table of contents
 - [What's included?](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
+- [Todo](#todo)
 - [Dependencies](#dependencies)
-- [Categories](#categories)
 - [Browser support](#browser-support)
-- [GitHub Pages](#gitHub-pages)
 - [Copyright and license](#copyright-and-license)
 
 ## What's included
